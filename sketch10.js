@@ -6,9 +6,9 @@ let bgm;
 //attribution: © Mapbox, © OpenStreetMap
 function preload() {
   maping = loadImage("https://api.mapbox.com/styles/v1/mapbox/light-v10/static/0,0,1,0/1280x720?attibute=false&access_token=pk.eyJ1IjoieWhza3l4eCIsImEiOiJja2ZjdGYydTMxYWhhMnlweGh6MG93MTRtIn0.nhdiApy-ZVPVEDUeiVSVRw");
-  sup = loadStrings("https://cdn.glitch.com/fbc2a06c-a0ad-427a-ae11-00252e4e8f39%2FApple%20suppliers%202019%20data.csv?v=1610128634109");
+  sup = loadStrings("assets/Apple suppliers 2019 data.csv");
   soundFormats('mp3');
-  bgm = loadSound('https://cdn.glitch.com/fbc2a06c-a0ad-427a-ae11-00252e4e8f39%2FAppleBGM.mp3?v=1610128639033');
+  bgm = loadSound('assets/AppleBGM.mp3');
 }
 
 let clat = 0; //central latitude,

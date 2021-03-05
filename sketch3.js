@@ -5,7 +5,7 @@ function setup() {
 
 let img;
 function preload() {
-  img = loadImage('https://cdn.glitch.com/fbc2a06c-a0ad-427a-ae11-00252e4e8f39%2Ftexture4.jpg?v=1605805122896');
+  img = loadImage('assets/texture3.jpg');
 }
 
 let start_time = 0;
