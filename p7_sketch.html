@@ -9,6 +9,22 @@
     <script src="p5.sound.min.js"></script>
   </head>
   <body>
+      <script>
+          window.addEventListener(
+              "keydown",
+              (e) => {
+                  if (
+                      ["Space", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(
+                          e.code
+                      )
+                  ) {
+                      e.preventDefault();
+                      console.log('prevent');
+                  }
+              },
+              false
+          );
+      </script>
       <script src="sketch7.js"></script>
   <script src="clouds.js"></script>
   <script src="character.js"></script>
